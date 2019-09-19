@@ -1,0 +1,34 @@
+<form [formGroup]="form" >
+  <div class="container register">
+    <div class="row">
+      <div class="col-md-3 register-left">
+        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+        <h3>Welcome Back to </h3><h2>ELSE</h2>
+      </div>
+      <div class="col-md-9 register-right">
+        <ul class="nav nav-tabs" >
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+               aria-selected="false">Home</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent" >
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h3 class="register-heading">Apply to be... one of us</h3>
+            <div class="row register-form">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="UserName" formControlName="username" [(ngModel)]="UserName"/>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" formControlName="password" [(ngModel)]="password" />
+                </div>
+                <input type="button" class="btnRegister"  value="Login" [disabled]="form.invalid" (click)="login()"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

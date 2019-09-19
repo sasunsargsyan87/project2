@@ -1,0 +1,421 @@
+{
+  "question1": [
+    {
+      "question": "When you were little, what did you want to be when you grow up?",
+      "answer1": "Programmer",
+      "answer2": "President of USA",
+      "answer3": "Killer",
+      "trueAnswer": "Programmer",
+      "id": 1
+    },
+    {
+      "question": "If you got stuck in the elevator and was forced to listen to only one song, which would it be??",
+      "answer1": "Its My Life",
+      "answer2": "La-la-fa",
+      "answer3": "Maybe I Maybe You",
+      "trueAnswer": "Its My Life",
+      "id": 2
+    },
+    {
+      "question": "What was your worst job?",
+      "answer1": "Angular Programmer",
+      "answer2": "President of Armenia",
+      "answer3": "Boss of Mafia",
+      "trueAnswer": "President of Armenia",
+      "id": 3
+    },
+    {
+      "question": "If you could live anywhere, where would it be?",
+      "answer1": "Florencia",
+      "answer2": "Yerevan",
+      "answer3": "Los-Angeles",
+      "trueAnswer": "Yerevan",
+      "id": 4
+    },
+    {
+      "question": "Which drink you like",
+      "answer1": "Water",
+      "answer2": "Cofee",
+      "answer3": "Milk",
+      "trueAnswer": "Cofee",
+      "id": 5
+    },
+    {
+      "question": "Where you go out with your friend...?",
+      "answer1": "Cafe",
+      "answer2": "University",
+      "answer3": "Cinema",
+      "trueAnswer": "Cinema",
+      "id": 6
+    }
+  ],
+  "question2": [
+    {
+      "question": "Which answer is right?",
+      "answer1": "Matsoon is black",
+      "answer2": "Matsoon is white",
+      "answer3": "Matsoon is black & white",
+      "trueAnswer": "Matsoon is white",
+      "id": 1
+    },
+    {
+      "question": "Which answer is wrong?",
+      "answer1": "Kennedy was killed in 1966",
+      "answer2": "Kennedy was killed in 1938",
+      "answer3": "Both are wrong",
+      "trueAnswer": "Kennedy was killed in 1938",
+      "id": 2
+    },
+    {
+      "question": "How many colors in rainbow?",
+      "answer1": "9",
+      "answer2": "11",
+      "answer3": "7",
+      "trueAnswer": "7",
+      "id": 3
+    },
+    {
+      "question": "Which is not a flower?",
+      "answer1": "Kakach",
+      "answer2": "Inkapsulacia",
+      "answer3": "Orchidea",
+      "trueAnswer": "Inkapsulacia",
+      "id": 4
+    },
+    {
+      "question": "Capital of Nigeria is...?",
+      "answer1": "Abudja",
+      "answer2": "Lagos",
+      "answer3": "Niger",
+      "trueAnswer": "Abudja",
+      "id": 5
+    },
+    {
+      "question": "Which is not a German car?",
+      "answer1": "Opel",
+      "answer2": "Ford",
+      "answer3": "Bmw",
+      "trueAnswer": "Ford",
+      "id": 6
+    }
+  ],
+  "question3": [
+    {
+      "question": "California",
+      "answer1": "Has an eagle on its state flag",
+      "answer2": "Was the location of the Gold Rush of 1849",
+      "answer3": "Is the second largest state in terms of area",
+      "trueAnswer": "Was the location of the Gold Rush of 1849",
+      "id": 1
+    },
+    {
+      "question": "What is the main reason so many people moved to California in 1849?",
+      "answer1": "Gold was discovered in central California",
+      "answer2": "The east was preparing for a civil war",
+      "answer3": "They wanted to establish religious settlements",
+      "trueAnswer": "Gold was discovered in central California",
+      "id": 2
+    },
+    {
+      "question": "When analyzing your students’ pretest and posttest scores to determine if your teaching has had a significant effect, an appropriate statistic to use is the t-test for:",
+      "answer1": "Heterogenous samples",
+      "answer2": "Independent samples",
+      "answer3": "Dependent samples",
+      "trueAnswer": "Dependent samples",
+      "id": 3
+    },
+    {
+      "question": "Which of these assessment findings, if identified in a client who has pneumonia, indicates that the client needs suctioned?",
+      "answer1": "Inability to cough up sputum",
+      "answer2": "Absence of adventitious breath sounds",
+      "answer3": "Respiratory rate of 18 breaths per minute",
+      "trueAnswer": "Inability to cough up sputum",
+      "id": 4
+    },
+    {
+      "question": "Idaho is widely known for its:",
+      "answer1": "Corn",
+      "answer2": "Potatoes",
+      "answer3": "Wheat",
+      "trueAnswer": "Potatoes",
+      "id": 5
+    },
+    {
+      "question": "Which of the following artists is known for painting the ceiling of the Sistine Chapel?",
+      "answer1": "Michelangelo",
+      "answer2": "da Vinci",
+      "answer3": "Raphael",
+      "trueAnswer": "Michelangelo",
+      "id": 6
+    }
+  ],
+  "question4": [
+    {
+      "question": "The term operant conditioning refers to the learning situation in which:",
+      "answer1": "Verbal responses are made to verbal stimuli",
+      "answer2": "The learner’s response leads to reinforcement",
+      "answer3": "A familiar response is associated with a new stimulus",
+      "trueAnswer": "The learner’s response leads to reinforcement",
+      "id": 1
+    },
+    {
+      "question": "The capital of India is:",
+      "answer1": "Mumbai",
+      "answer2": "Delhi",
+      "answer3": "Bangalore",
+      "trueAnswer": "Mumbai",
+      "id": 2
+    },
+    {
+      "question": "In national elections in the United States the President is officially chosen by",
+      "answer1": "the House of Representatives",
+      "answer2": "members of Congress",
+      "answer3": "the people",
+      "trueAnswer": "the people",
+      "id": 3
+    },
+    {
+      "question": "What process is most nearly the opposite of photosynthesis?",
+      "answer1": "Digestion",
+      "answer2": "Respiration",
+      "answer3": "Catabolism",
+      "trueAnswer": "Respiration",
+      "id": 4
+    },
+    {
+      "question": "What would do most to advance the application of atomic discoveries to medicine?",
+      "answer1": "Addition of trained radioactive therapy specialists to hospital staffs",
+      "answer2": "Removal of restriction on the use of radioactive substances",
+      "answer3": "Development of standardized techniques for treatment of patients",
+      "trueAnswer": "Development of standardized techniques for treatment of patients",
+      "id": 5
+    },
+    {
+      "question": "What is the daily minimum required amount of milk a 10 year old child should drink?",
+      "answer1": "1 glass",
+      "answer2": "3 glasses",
+      "answer3": "2 glasses",
+      "trueAnswer": "3 glasses",
+      "id": 6
+    }
+  ],
+  "question5": [
+    {
+      "question": "At 7 a.m. two trucks travel north. First averages 42m/h, second averages 38m/h.At what time will they be 24 miles apart?",
+      "answer1": "1 a.m.",
+      "answer2": "1 p.m.",
+      "answer3": "6 a.m.",
+      "trueAnswer": "1 p.m.",
+      "id": 1
+    },
+    {
+      "question": "The two most desired characteristics in a classroom test are validity and",
+      "answer1": "precision",
+      "answer2": "Kennedy was killed in 1938",
+      "answer3": "objectivity",
+      "trueAnswer": "objectivity",
+      "id": 2
+    },
+    {
+      "question": "What is the most general cause of low individual incomes in the United States?",
+      "answer1": "A lack of valuable productive services to sell",
+      "answer2": "The population's overall unwillingness to work",
+      "answer3": "an increasing national level of inflation",
+      "trueAnswer": "A lack of valuable productive services to sell",
+      "id": 3
+    },
+    {
+      "question": "The reliability of a test can be estimated by a coefficient of:",
+      "answer1": "error",
+      "answer2": "testing",
+      "answer3": "correlation",
+      "trueAnswer": "correlation",
+      "id": 4
+    },
+    {
+      "question": "Potential energy is:",
+      "answer1": "the energy of motion of an object",
+      "answer2": "the energy stored by an object",
+      "answer3": " the energy emitted by an object",
+      "trueAnswer": "the energy stored by an object",
+      "id": 5
+    },
+    {
+      "question": "Which type of test do college admissions offices use most often in reviewing applications?",
+      "answer1": "CAT",
+      "answer2": "IQ",
+      "answer3": "ETS",
+      "trueAnswer": "IQ",
+      "id": 6
+    }
+  ],
+  "question6": [
+    {
+      "question": "Trassig normally occurs when the",
+      "answer1": "dissels frull",
+      "answer2": "lusp trasses the vom",
+      "answer3": "belgo lisks easily",
+      "trueAnswer": "lusp trasses the vom",
+      "id": 1
+    },
+    {
+      "question": "he Fribbled Breg will minter best with an",
+      "answer1": "Ignu",
+      "answer2": "Mors",
+      "answer3": "Cerst",
+      "trueAnswer": "Ignu",
+      "id": 2
+    },
+    {
+      "question": "What probable causes are indicated when tristal doss occurs in a compots?",
+      "answer1": "The kredges roted with the rots",
+      "answer2": "Polats were thonced in the sluth",
+      "answer3": "The sabs foped and the doths tinzed",
+      "trueAnswer": "The sabs foped and the doths tinzed",
+      "id": 3
+    },
+    {
+      "question": "The primary purpose of the cluss in frumpaling is to",
+      "answer1": "remove cluss-prangs",
+      "answer2": "patch tremalls",
+      "answer3": "loosen cloughs",
+      "trueAnswer": "remove cluss-prangs",
+      "id": 4
+    },
+    {
+      "question": "Why does the sigla frequently overfesk the trelsum?",
+      "answer1": "All siglas are mellious",
+      "answer2": " Siglas are always votial",
+      "answer3": "The trelsum is usually tarious",
+      "trueAnswer": "The trelsum is usually tarious",
+      "id": 5
+    },
+    {
+      "question": "The mintering function of the Ignu is most effectively performed in connection with which one of the following minter snacks?",
+      "answer1": "Fribbled Breg",
+      "answer2": "Arazma Tol",
+      "answer3": "Fallied Stantol",
+      "trueAnswer": "Fribbled Breg",
+      "id": 6
+    }
+  ],
+  "question7": [
+    {
+      "question": "Which of the following is/are always present when trossels are being gruven?",
+      "answer1": "rint and vost",
+      "answer2": "vost",
+      "answer3": "vost and plone",
+      "trueAnswer": "vost",
+      "id": 1
+    },
+    {
+      "question": "Among the reasons for tristal doss are",
+      "answer1": "the sabs foped and the foths tinzed",
+      "answer2": "the dredges roted with the orots",
+      "answer3": "most of the polats were thonced",
+      "trueAnswer": "the sabs foped and the foths tinzed",
+      "id": 2
+    },
+    {
+      "question": "The main reason sabs foped is",
+      "answer1": "the foths tinzed",
+      "answer2": "the dredges roted with the orots while the racobs were accapted in sluth",
+      "answer3": "the trelsum is thonced",
+      "trueAnswer": "the dredges roted with the orots while the racobs were accapted in sluth",
+      "id": 3
+    },
+    {
+      "question": "If 3r = 18, what is the value of 6r + 3?",
+      "answer1": "27",
+      "answer2": "36",
+      "answer3": "39",
+      "trueAnswer": "39",
+      "id": 4
+    },
+    {
+      "question": "2x – 3y = -14 and 3x – 2y = -6 If (x, y) is the solution to the system of equations above, what is the value of x – y?",
+      "answer1": "-4",
+      "answer2": "-8",
+      "answer3": "-20",
+      "trueAnswer": "-4",
+      "id": 5
+    },
+    {
+      "question": "To turn right, you should be in:",
+      "answer1": "The left lane",
+      "answer2": "The lane that’s closest to the direction you want to go",
+      "answer3": "The center lane",
+      "trueAnswer": "The lane that’s closest to the direction you want to go",
+      "id": 6
+    }
+  ],
+  "tvyal": [
+    {
+      "username": "sasun",
+      "password": "sasun",
+      "email": "sasun",
+      "name": "sasun",
+      "lastname": "sasun",
+      "level1": true,
+      "level2": true,
+      "level3": true,
+      "level4": true,
+      "level5": false,
+      "level6": false,
+      "level7": false,
+      "id": 1
+    },
+    {
+      "username": "edgar",
+      "password": "edgar",
+      "email": "edgar",
+      "name": "edgar",
+      "lastname": "edgar",
+      "level1": false,
+      "level2": false,
+      "level3": false,
+      "level4": false,
+      "level5": false,
+      "level6": false,
+      "level7": false,
+      "id": 2
+    },
+    {
+      "username": "artak",
+      "password": "artak",
+      "email": "artak",
+      "name": "artak",
+      "lastname": "artak",
+      "level1": false,
+      "level2": false,
+      "level3": false,
+      "level4": false,
+      "level5": false,
+      "level6": false,
+      "level7": false,
+      "id": 3
+    },
+    {
+      "username": "lilit",
+      "password": "lilit",
+      "email": "lilit",
+      "name": "lilit",
+      "lastname": "lilit",
+      "level1": false,
+      "level2": false,
+      "level3": false,
+      "level4": false,
+      "level5": false,
+      "level6": false,
+      "level7": false,
+      "id": 4
+    }
+  ],
+  "ogtater": [
+    {
+      "username": "sasun",
+      "id": 1,
+      "level1": false
+    }
+  ]
+}

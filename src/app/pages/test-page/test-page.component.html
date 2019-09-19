@@ -1,0 +1,154 @@
+<div class="nav">
+  <div class="charcharanq">
+    <h3 *ngFor="let o of tvyal3">{{o.username}}</h3>
+  </div>
+<div *ngFor="let ogt of ogtaterner" id="but">
+<button class="btn btn-primary" (click)="logout(ogt)" *ngIf="flag">Logout</button>
+</div>
+
+</div>
+<div>
+  <ul>
+    <button (click)="test1()"><li><a>Test1</a></li></button><br>
+    <button (click)="test2()" [disabled]="flag3"><li><a>Test2</a></li></button><br>
+    <button (click)="test3()" [disabled]="flag4"><li><a>Test3</a></li></button><br>
+    <button (click)="test4()" [disabled]="flag9"><li><a>Test4</a></li></button><br>
+    <button (click)="test5()" [disabled]="flag12"><li><a>Test5</a></li></button><br>
+    <button (click)="test6()" [disabled]="flag15"><li><a>Test6</a></li></button><br>
+    <button (click)="test7()" [disabled]="flag18"><li><a>Test7</a></li></button><br>
+  </ul>
+</div>
+
+<div class="container">
+
+  <div class="row col-6" *ngIf="flag === 'test1'">
+      <div *ngFor="let harc of question1; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag1)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange1($event)">
+      <span [ngStyle]="{color: getColor(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag1)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange1($event)">
+      <span [ngStyle]="{color: getColor1(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag1)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange1($event)">
+      <span [ngStyle]="{color: getColor2(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+    <button type="submit" (click)="verify1(o)" [disabled]="flag2">Verify</button>
+    </div>
+    <p *ngIf="flag2" style="font-size: 20px"> Result: 6/{{count}}</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row col-6"  *ngIf = "flag === 'test2'">
+    <div *ngFor="let harc of question2; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag5)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange2($event)">
+      <span [ngStyle]="{color: getColor3(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag5)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange2($event)">
+      <span [ngStyle]="{color: getColor4(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag5)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange2($event)">
+      <span [ngStyle]="{color: getColor5(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+      <button type="submit" (click)="verify2(o)" [disabled]="flag6">Verify</button>
+    </div>
+    <p *ngIf="flag6" style="font-size: 20px"> Result: 6/{{count1}}</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row col-6"  *ngIf = "flag === 'test3'">
+    <div *ngFor="let harc of question3; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag7)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange3($event)">
+      <span [ngStyle]="{color: getColor6(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag7)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange3($event)">
+      <span [ngStyle]="{color: getColor7(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag7)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange3($event)">
+      <span [ngStyle]="{color: getColor8(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+      <button type="submit" (click)="verify3(o)" [disabled]="flag8">Verify</button>
+      <p *ngIf="flag8" style="font-size: 20px"> Result: 6/{{count2}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row col-6"  *ngIf = "flag === 'test4'">
+    <div *ngFor="let harc of question4; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag10)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange4($event)">
+      <span [ngStyle]="{color: getColor9(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag10)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange4($event)">
+      <span [ngStyle]="{color: getColor10(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag10)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange4($event)">
+      <span [ngStyle]="{color: getColor11(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+      <button type="submit" (click)="verify4(o)" [disabled]="flag11">Verify</button>
+      <p *ngIf="flag11" style="font-size: 20px"> Result: 6/{{count3}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row col-6"  *ngIf = "flag === 'test5'">
+    <div *ngFor="let harc of question5; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag13)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange5($event)">
+      <span [ngStyle]="{color: getColor12(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag13)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange5($event)">
+      <span [ngStyle]="{color: getColor13(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag13)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange5($event)">
+      <span [ngStyle]="{color: getColor14(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+      <button type="submit" (click)="verify5(o)" [disabled]="flag14">Verify</button>
+      <p *ngIf="flag14" style="font-size: 20px"> Result: 6/{{count4}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row col-6"  *ngIf = "flag === 'test6'">
+    <div *ngFor="let harc of question6; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag16)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange6($event)">
+      <span [ngStyle]="{color: getColor15(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag16)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange6($event)">
+      <span [ngStyle]="{color: getColor16(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag16)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange6($event)">
+      <span [ngStyle]="{color: getColor17(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+      <button type="submit" (click)="verify6(o)" [disabled]="flag17">Verify</button>
+      <p *ngIf="flag17" style="font-size: 20px"> Result: 6/{{count5}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row col-6"  *ngIf = "flag === 'test7'">
+    <div *ngFor="let harc of question7; let i = index" [style.color]="'black'" class="questions">
+      <h3>{{harc.question}}</h3>
+      <input [disabled]="(flag19)" type="radio" [name]="i" value="{{harc.answer1}}" (change)="radioChange7($event)">
+      <span [ngStyle]="{color: getColor18(i)}"> {{harc.answer1}}  </span><br>
+      <input [disabled]="(flag19)" type="radio" [name]="i" value="{{harc.answer2}}" (change)="radioChange7($event)">
+      <span [ngStyle]="{color: getColor19(i)}"> {{harc.answer2}}  </span><br>
+      <input [disabled]="(flag19)" type="radio" [name]="i" value="{{harc.answer3}}" (change)="radioChange7($event)">
+      <span [ngStyle]="{color: getColor20(i)}"> {{harc.answer3}}  </span><br>
+    </div>
+    <br>
+    <div *ngFor="let o of tvyal3">
+      <button type="submit" (click)="verify7(o)" [disabled]="flag20">Verify</button>
+      <p *ngIf="flag20" style="font-size: 20px"> Result: 6/{{count6}}</p>
+    </div>
+  </div>
+</div>
